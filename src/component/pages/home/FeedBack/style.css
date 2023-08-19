@@ -1,0 +1,15 @@
+.feedBack {
+    width: 100%;
+    margin-top: 105px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 217px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .feedBack {
+        padding-bottom: unset;
+    }
+}

@@ -1,0 +1,28 @@
+.FeedBackPage {
+    margin-top: 184px;
+    padding-bottom: 163px;
+}
+
+@media screen and (max-width:1260px) {
+    .FeedBackPage {
+        margin-top: 300px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .FeedBackPage {
+        margin-top: 250px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .FeedBackPage {
+        margin-top: 260px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .FeedBackPage {
+        margin-top: 150px;
+    }
+}

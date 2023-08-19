@@ -1,0 +1,378 @@
+.servicePage {
+    margin-top: 168px;
+    padding-bottom: 187px;
+    overflow: hidden;
+}
+
+
+.sercisedata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 171px;
+    position: relative;
+}
+
+.serviceHalfMoon {
+    max-width: clamp(200px, 100%, 366px);
+    flex-shrink: 0;
+    position: absolute;
+    top: 171px;
+    right: -136px;
+    z-index: -1;
+}
+
+.serviceHalfMoon1 {
+    max-width: clamp(200px, 100%, 366px);
+    position: absolute;
+    top: 826px;
+    left: -96px;
+    z-index: -1;
+}
+
+
+.sercisedata h2 {
+    width: clamp(200px, 100%, 563px);
+}
+
+.sercisedata p {
+    width: clamp(200px, 100%, 541px);
+}
+
+.sercisedata .btn-Service-page {
+    display: inline-flex;
+    padding: 20px 16px 20px 22px;
+    border-radius: 14px;
+    background: #12724F;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Bokonique;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sercisedata img {
+    width: clamp(200px, 100%, 555px);
+    height: 363px;
+    flex-shrink: 0;
+}
+
+.accessories {
+    display: flex;
+    column-gap: 106px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.accessories div {
+    width: clamp(200px, 100%, 593px);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.custoMorder {
+    display: flex;
+    column-gap: 136px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+
+.custoMorder div {
+    width: clamp(200px, 100%, 593px);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#orderCall {
+    position: fixed;
+    background-color: rgb(81, 136, 81, 0.5);
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.orderaCallOpen {
+    width: 100%;
+    height: 100%;
+    transition: 0.6s;
+}
+
+.orderCallClose {
+    width: 100%;
+    height: 0%;
+    transition: 0.6s;
+}
+
+#orderCall form {
+    width: clamp(200px, 100%, 1136px);
+    min-height: 872px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.orderData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#orderCall form h3 {
+    color: var(--green, #12724F);
+    font-family: Bokonique;
+    font-size: clamp(20px, 5vw, 64px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 62px;
+}
+
+#orderCall form .orderInput {
+    width: 826px;
+    display: flex;
+    margin-top: 56px;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+#orderCall form .orderInput input {
+    width: clamp(200px, 100%, 401px);
+    height: 95px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: rgba(217, 217, 217, 0.85);
+    color: #000;
+    font-family: Bokonique;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-left: 47px;
+    border: unset;
+}
+
+.phone {
+    width: clamp(200px, 100%, 826px);
+    height: 95px;
+    border-radius: 14px;
+    background: rgba(217, 217, 217, 0.85);
+    flex-shrink: 0;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: unset;
+    padding-left: 47px;
+}
+
+.toorderCall {
+    padding: 21px 74px 21px 67px;
+    height: 62px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #12724F;
+    color: #FFF;
+    font-family: Bokonique;
+    font-size: 16.475px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 47px;
+}
+
+#orderCall textarea {
+    padding-top: 44px;
+    padding-left: 47px;
+    width: clamp(200px, 100%, 826px);
+    height: 261px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: rgba(217, 217, 217, 0.85);
+    border: unset;
+    margin-top: 31px;
+
+}
+
+::placeholder {
+    color: #000;
+    font-family: Bokonique;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+
+.timeOrder {
+    position: absolute;
+    width: 37.001px;
+    height: 37px;
+    flex-shrink: 0;
+    top: 39px;
+    right: 40.22px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1080px) {
+    .footerContactUs {
+        margin-left: 20px;
+    }
+
+    .footerProduct {
+        margin-left: 20px;
+    }
+
+    .serviceHalfMoon {
+        width: clamp(100px, 100%, 200px);
+        top: 140px;
+        left: 0;
+    }
+
+    .serviceHalfMoon1 {
+        width: clamp(100px, 100%, 200px);
+        left: 0;
+    }
+}
+
+@media screen and (max-width:956px) {
+    .servicePage {
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .servicePage {
+        margin-top: 300px;
+    }
+
+    #orderCall form .orderInput {
+        width: unset;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    .servicePage {
+        margin-top: 300px;
+        padding-bottom: 100px;
+    }
+
+    .accessories div {
+        width: clamp(200px, 100%, 400px);
+    }
+
+    .custoMorder div {
+        width: clamp(200px, 100%, 400px);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .servicePage {
+        margin-top: 150px;
+    }
+
+    .sercisedata {
+        row-gap: 100px;
+    }
+
+    .sercisedata img {
+        height: 200px;
+    }
+
+    .serviceHalfMoon {
+        top: 450px;
+        left: 100px;
+    }
+
+    .serviceHalfMoon1 {
+        top: 800px;
+        left: 100px;
+    }
+
+    #orderCall {
+        display: flex;
+        align-items: center;
+    }
+
+    #orderCall form {
+        margin-top: unset;
+        width: 100%;
+        padding-bottom: 30px;
+        min-height: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #orderCall form h3 {
+        margin-top: 10px;
+    }
+
+    #orderCall form .orderInput {
+        margin-top: 10px;
+        row-gap: 10px;
+    }
+
+    #orderCall form .orderInput input {
+        padding-left: 20px;
+        height: 50px;
+    }
+
+    #orderCall form input {
+        padding-left: 20px;
+        height: 50px;
+
+    }
+
+    #orderCall form textarea {
+        padding-top: 20px;
+        padding-left: 20px;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    #orderCall form button {
+        margin-top: 20px;
+    }
+
+    .phone {
+        margin-top: 10px;
+    }
+
+    #orderCall form .timeOrder {
+        width: 20px;
+        height: 20px;
+        top: 15px;
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .serviceHalfMoon {
+        left: 0;
+    }
+
+    .serviceHalfMoon1 {
+        left: 0;
+        top: 2100px;
+    }
+}
