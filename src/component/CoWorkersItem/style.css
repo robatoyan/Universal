@@ -1,0 +1,21 @@
+.coWrkersItem {
+    width: clamp(200px, 100%, 434px);
+    flex-shrink: 0;
+    border-radius: 14px;
+    padding-top: 110px;
+    padding-bottom: 111px;
+    padding-left: 21px;
+    padding-right: 21.5px;
+    background: #DDD;
+}
+
+.coWrkersItem img {
+    width: clamp(200px, 100%, 391.5px);
+    flex-shrink: 0;
+}
+@media screen and (max-width:480px) {
+    .coWrkersItem {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}

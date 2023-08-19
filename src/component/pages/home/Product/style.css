@@ -1,0 +1,25 @@
+.ollProducte {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 33px;
+}
+
+.ollProducte h2 {
+    margin-top: 39px;
+}
+
+.btn-link-product {
+    display: inline-flex;
+    padding: 20px 26px 20px 34px;
+    align-items: center;
+    border-radius: 14px;
+    background: #12724F;
+    color: #FFF;
+    font-family: Bokonique;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

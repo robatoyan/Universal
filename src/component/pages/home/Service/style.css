@@ -1,0 +1,70 @@
+.services {
+    width: 100%;
+    background: #F4F9FF;
+    min-height: 300px;
+    margin-top: 36px;
+    padding-top: 127px;
+    padding-bottom: 193px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    position: relative;
+}
+.halfmoon1Service {
+    position: absolute;
+    top: 151px;
+    right: -100px;
+    z-index: 0;
+}
+.serviceImg {
+    margin-right: 74px;
+    width: clamp(200px, 100%, 555px);
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.serviceData {
+    width: clamp(200px, 100%, 593px);
+    display: flex;
+    row-gap: 41px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.serviceData .btn-link-service {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    padding: 20px 38px;
+    background: #12724F;
+    color: #FFF;
+    font-family: Bokonique;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: unset;
+}
+
+@media screen and (max-width:1080px) {
+    .halfmoon1Service {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .services {
+        padding-top: 40px;
+        padding-bottom: 100px;
+    }
+}
