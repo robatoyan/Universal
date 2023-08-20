@@ -19,7 +19,6 @@ export const SuccessMessage = ({ show, onClose }) => {
                         <span>{t("phonepost")}</span>
                         :
                         <span>{t("elpost")}</span>
-
                 }
                 <img src='/imgFeedBack/sccssesfool.png' alt='sucsses' className='sccssesfool' />
                 <img src='/imgFeedBack/imgTime.png' alt='time' className='time' onClick={onClose} />

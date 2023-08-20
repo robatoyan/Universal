@@ -99,7 +99,7 @@
     top: 0;
     left: 0;
     overflow: hidden;
-    z-index: 100;
+    z-index: 600;
 }
 
 .orderaCallOpen {
@@ -286,8 +286,11 @@
 }
 
 @media screen and (max-width:480px) {
+
     .servicePage {
         margin-top: 150px;
+        padding-bottom: 20px;
+
     }
 
     .sercisedata {

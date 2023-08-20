@@ -1,6 +1,7 @@
 .activemassage {
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 .noactivemassage {
@@ -16,8 +17,10 @@
     background-color: rgb(81, 136, 81, 0.5);
     z-index: 1000;
     overflow: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
 }
 
 .massageFeedBack {
@@ -25,7 +28,6 @@
     height: 743px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -73,12 +75,24 @@
 
 @media screen and (max-width:480px) {
     .massageFeedBack {
-        height: 600px;
+        height: clamp(200px, 100%, 400px);
         padding-left: 10px;
     }
 
+    .time {
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        top: 20px;
+    }
+
     .massageFeedBack .sccssesfool {
-        width: 151px;
-        height: 151px;
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+    }
+
+    .massageFeedBack h3 {
+        margin-top: 80px;
     }
 }

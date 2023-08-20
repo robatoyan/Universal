@@ -151,6 +151,7 @@
 @media screen and (max-width:480px) {
     .productpage {
         margin-top: 130px;
+        padding-bottom: 20px;
     }
 
     .productpageData {
@@ -159,10 +160,6 @@
 
     .sm-m div {
         column-gap: 2px;
-    }
-
-    .productpage {
-        padding-bottom: 40px;
     }
 
     .productpageimg {

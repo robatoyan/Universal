@@ -69,6 +69,7 @@
 @media screen and (max-width:480px) {
     .productsOur {
         margin-top: 140px;
+        padding-bottom: 20px;
     }
 
     .productsOur {
