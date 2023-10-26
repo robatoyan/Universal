@@ -30,7 +30,7 @@ export const Product = () => {
                 {
                     productsHome.map((e) => {
                         return (
-                            <ProductItem product={e} key={e.id} />
+                            <ProductItem product={e}  />
                         )
                     })
                 }
